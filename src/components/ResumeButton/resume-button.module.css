@@ -1,0 +1,28 @@
+.buttonBase {
+  border-radius:5px;
+  font-size:17px;
+	font-weight:bold;
+	padding:12px 34px;
+	text-decoration:none;
+  display:inline-block;
+	cursor:pointer;
+}
+
+.lightButton {
+  color: var(--mantine-color-black);
+  box-shadow: 3px 4px 0px 0px #232323;
+	background-color:#fffbeb;
+	border:2px solid #232323;
+}
+
+.darkButton {
+  color: var(--mantine-color-white);
+  box-shadow: 3px 4px 0px 0px #fffbeb;
+	background-color:#232323;
+	border:2px solid #fffbeb;
+}
+
+.buttonBase:active {
+	box-shadow:	7px 6px 28px 1px rgba(0, 0, 0, 0);
+	transform: translateY(4px);
+}

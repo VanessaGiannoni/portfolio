@@ -1,0 +1,16 @@
+.dropdown {
+  right: 5px;
+}
+
+.navList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.navList > li {
+  font-size: 18px;
+}

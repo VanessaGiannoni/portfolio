@@ -1,11 +1,19 @@
-import { Welcome } from '../components/Welcome/Welcome';
-import { ColorSchemeToggle } from '../components/ColorSchemeToggle/ColorSchemeToggle';
+'use client';
+
+import { Container } from '@mantine/core';
+import Header from '@/src/components/Header/Header';
 
 export default function HomePage() {
+  const containerProps = {
+    h: 50,
+    mt: 'sm',
+    pr: 'xl',
+    pl: 'xl',
+  };
+
   return (
-    <>
-      <Welcome />
-      <ColorSchemeToggle />
-    </>
+    <Container {...containerProps} fluid>
+        <Header />
+    </Container>
   );
 }

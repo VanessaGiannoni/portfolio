@@ -1,0 +1,4 @@
+.navList {
+  display: flex;
+  list-style-type: none;
+}
