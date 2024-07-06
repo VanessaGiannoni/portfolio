@@ -3,7 +3,8 @@ import { MantineTheme, useMantineTheme } from '@mantine/core';
 
 type Breakpoint = 'xs' | 'sm' | 'md' | 'lg' | 'xl';
 
-const breakpointToMediaQuery = (theme: MantineTheme, breakpoint: Breakpoint): string => `(min-width: ${theme.breakpoints[breakpoint]})`;
+const breakpointToMediaQuery = (theme: MantineTheme, breakpoint: Breakpoint): string =>
+  `(min-width: ${theme.breakpoints[breakpoint]})`;
 
 const useBreakpoint = (breakpoint: Breakpoint): boolean => {
   const theme = useMantineTheme();

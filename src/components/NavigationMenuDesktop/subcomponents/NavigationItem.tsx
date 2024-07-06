@@ -5,17 +5,13 @@ import classes from './navigation-item.module.css';
 
 interface NavigationItemProps {
   href: string;
-  label: string
+  label: string;
 }
 
 export default function NavigationItem({ href, label }: NavigationItemProps) {
   return (
     <li className={classes.navItem}>
-      <NavLink
-        href={href ?? '#'}
-        label={label ?? 'Oops'}
-        className={classes.root}
-      />
+      <NavLink href={href ?? '#'} label={label ?? 'Oops'} className={classes.root} />
     </li>
   );
 }

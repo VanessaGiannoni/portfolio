@@ -31,7 +31,9 @@ export default function NavigationMenuDesktop() {
   return (
     <Group>
       <ul className={classes.navList}>
-        {menuItems.map((item) => <NavigationItem href={item.href} label={item.label} />)}
+        {menuItems.map((item) => (
+          <NavigationItem href={item.href} label={item.label} />
+        ))}
       </ul>
     </Group>
   );

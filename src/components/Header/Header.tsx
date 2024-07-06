@@ -13,19 +13,18 @@ export default function Header() {
   return (
     <header>
       <Group justify="space-between">
-      {isLargeScreen ? (
-        <>
-          <ResumeButton />
-          <NavigationMenuDesktop />
-          <ColorSchemeToggle />
-        </>
-      ) : (
-        <>
-          <NavigationMenuMobile />
-          <ColorSchemeToggle />
-        </>
-      )
-    }
+        {isLargeScreen ? (
+          <>
+            <ResumeButton />
+            <NavigationMenuDesktop />
+            <ColorSchemeToggle />
+          </>
+        ) : (
+          <>
+            <NavigationMenuMobile />
+            <ColorSchemeToggle />
+          </>
+        )}
       </Group>
     </header>
   );

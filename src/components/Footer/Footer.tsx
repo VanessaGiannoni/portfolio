@@ -35,8 +35,12 @@ export default function Footer() {
       </div>
       <Center>
         <Stack>
-          <Text className={classes.text}>Designed with <FaHeart /> by Sarah Giannoni</Text>
-          <Text className={classes.text}>Developed with <PiCoffeeFill /> by Me </Text>
+          <Text className={classes.text}>
+            Designed with <FaHeart /> by Sarah Giannoni
+          </Text>
+          <Text className={classes.text}>
+            Developed with <PiCoffeeFill /> by Me{' '}
+          </Text>
         </Stack>
       </Center>
       <Flex
@@ -50,7 +54,9 @@ export default function Footer() {
         className={classes.actionIconsContainer}
       >
         {isLargeScreen && <hr className={classes.line} />}
-        {actionIcons.map((item) => <IconItem icon={item.icon} href={item.href} />)}
+        {actionIcons.map((item) => (
+          <IconItem icon={item.icon} href={item.href} />
+        ))}
       </Flex>
     </footer>
   );
