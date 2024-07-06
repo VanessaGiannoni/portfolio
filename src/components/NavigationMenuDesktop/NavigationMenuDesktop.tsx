@@ -6,6 +6,10 @@ import NavigationItem from './subcomponents/NavigationItem';
 
 export const menuItems = [
   {
+    href: '#home',
+    label: 'Home',
+  },
+  {
     href: '#about',
     label: 'About',
   },
