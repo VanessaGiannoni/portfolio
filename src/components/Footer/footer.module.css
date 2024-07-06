@@ -1,0 +1,67 @@
+.footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 3rem 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  max-width: 1125px;
+}
+
+.text {
+  font-size: 0.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.emailContainer {
+  display: flex;
+  position: absolute;
+  bottom: 30px;
+}
+
+.emailWrapper {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+  gap: 24px;
+}
+
+.verticalLine {
+  border-left: 1px solid light-dark(var(--mantine-color-black), var(--mantine-color-white));
+  height: 150px;
+  margin: 0;
+  align-self: center;
+}
+
+
+@media (min-width: 1024px) {
+  .footer {
+    position: fixed;
+    padding: 1rem 0;
+  }
+  
+  .line {
+    border-top: 1px solid light-dark(var(--mantine-color-black), var(--mantine-color-white));
+    border-left: 0;
+    width: 150px;
+    margin: 0;
+  }
+
+  .text {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .actionIconsContainer {
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+  }
+}
