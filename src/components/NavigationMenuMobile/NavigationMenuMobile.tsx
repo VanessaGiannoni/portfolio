@@ -13,7 +13,7 @@ export default function NavigationMenuMobile() {
 
   return (
     <Menu
-      shadow="md"
+      shadow="sm"
       width="unset"
       classNames={classes}
       opened={openMenu}
@@ -25,7 +25,7 @@ export default function NavigationMenuMobile() {
       <Menu.Target>
         <Burger
           lineSize={4}
-          size="md"
+          size="sm"
           opened={opened}
           onClick={toggle}
           aria-label="Toggle navigation"
