@@ -55,7 +55,7 @@ export default function Footer() {
       >
         {isLargeScreen && <hr className={classes.line} />}
         {actionIcons.map((item) => (
-          <IconItem icon={item.icon} href={item.href} />
+          <IconItem icon={item.icon} href={item.href} key={item.href} />
         ))}
       </Flex>
     </footer>
