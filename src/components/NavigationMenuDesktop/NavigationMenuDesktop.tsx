@@ -6,6 +6,10 @@ import NavigationItem from './subcomponents/NavigationItem';
 
 export const menuItems = [
   {
+    href: '#home',
+    label: 'Home',
+  },
+  {
     href: '#about',
     label: 'About',
   },
@@ -27,7 +31,9 @@ export default function NavigationMenuDesktop() {
   return (
     <Group>
       <ul className={classes.navList}>
-        {menuItems.map((item) => <NavigationItem href={item.href} label={item.label} />)}
+        {menuItems.map((item) => (
+          <NavigationItem href={item.href} label={item.label} key={item.href} />
+        ))}
       </ul>
     </Group>
   );

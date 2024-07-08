@@ -11,20 +11,21 @@ export default function Header() {
   const isLargeScreen = useBreakpoint('md');
 
   return (
-    <Group justify="space-between">
-    {isLargeScreen ? (
-      <>
-        <ResumeButton />
-        <NavigationMenuDesktop />
-        <ColorSchemeToggle />
-      </>
-    ) : (
-      <>
-        <NavigationMenuMobile />
-        <ColorSchemeToggle />
-      </>
-    )
-  }
-    </Group>
+    <header>
+      <Group justify="space-between">
+        {isLargeScreen ? (
+          <>
+            <ResumeButton />
+            <NavigationMenuDesktop />
+            <ColorSchemeToggle />
+          </>
+        ) : (
+          <>
+            <NavigationMenuMobile />
+            <ColorSchemeToggle />
+          </>
+        )}
+      </Group>
+    </header>
   );
 }

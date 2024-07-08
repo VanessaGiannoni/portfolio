@@ -13,7 +13,7 @@ export default function NavigationMenuMobile() {
 
   return (
     <Menu
-      shadow="md"
+      shadow="sm"
       width="unset"
       classNames={classes}
       opened={openMenu}
@@ -25,7 +25,7 @@ export default function NavigationMenuMobile() {
       <Menu.Target>
         <Burger
           lineSize={4}
-          size="md"
+          size="sm"
           opened={opened}
           onClick={toggle}
           aria-label="Toggle navigation"
@@ -34,9 +34,9 @@ export default function NavigationMenuMobile() {
 
       <Menu.Dropdown>
         <ul className={classes.navList}>
-            {menuItems.map((item) => (
-              <NavigationItem href={item.href} label={item.label} />
-            ))}
+          {menuItems.map((item) => (
+            <NavigationItem href={item.href} label={item.label} key={item.href} />
+          ))}
         </ul>
       </Menu.Dropdown>
     </Menu>

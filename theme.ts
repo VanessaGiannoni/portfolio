@@ -1,8 +1,12 @@
 'use client';
 
 import { createTheme } from '@mantine/core';
+import { inter, notoSans } from './fonts/fonts';
 
- export const theme = createTheme({
+export const theme = createTheme({
+  fontFamily: `${notoSans.style.fontFamily}, Verdana, sans-serif`,
+  fontFamilyMonospace: `${inter.style.fontFamily}, Monaco, Courier, monospace`,
+  headings: { fontFamily: `${notoSans.style.fontFamily}, Greycliff CF, sans-serif` },
   white: '#fffbeb',
   black: '#232323',
   colors: {

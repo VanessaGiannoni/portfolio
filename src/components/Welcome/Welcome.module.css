@@ -1,10 +1,36 @@
 .title {
   color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
-  font-size: rem(100px);
+  font-size: 64px;
   font-weight: 900;
   letter-spacing: rem(-2px);
 
   @media (max-width: $mantine-breakpoint-md) {
-    font-size: rem(50px);
+    font-size: rem(48px);
   }
+}
+
+.thinFont {
+  font-weight: 300;
+}
+
+.nameTitle {
+  max-width: 747px;
+}
+
+.sectionContainer {
+  max-width: 1265px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.helloTitle {
+  align-self: flex-start;
+  max-width: 747px;
+}
+
+.resumeButton {
+  margin-top: 100px;
 }

@@ -10,7 +10,7 @@ export function ColorSchemeToggle() {
   const computedColorScheme = useComputedColorScheme('light', { getInitialValueInEffect: true });
 
   return (
-    <Group justify="right">
+    <Group justify="right" w={175}>
       <ActionIcon
         aria-label="toggle-theme"
         onClick={() => setColorScheme(computedColorScheme === 'light' ? 'dark' : 'light')}
