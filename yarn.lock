@@ -5937,13 +5937,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"D@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "D@npm:1.0.0"
-  checksum: 10c0/b823dd62c04adabad70aafb32642122640d69f77132d0b3413fa1be795cfd1baaa2fd6c4f975b056b8395c632c536680890567d3762f61cfcc278ec7d3f8e8f3
-  languageName: node
-  linkType: hard
-
 "abab@npm:^2.0.6":
   version: 2.0.6
   resolution: "abab@npm:2.0.6"
@@ -13579,7 +13572,6 @@ __metadata:
     "@types/react": "npm:18.3.3"
     "@typescript-eslint/eslint-plugin": "npm:^7.13.1"
     "@typescript-eslint/parser": "npm:^7.13.1"
-    D: "npm:^1.0.0"
     babel-loader: "npm:^9.1.3"
     eslint: "npm:^8.57.0"
     eslint-config-airbnb: "npm:19.0.4"
