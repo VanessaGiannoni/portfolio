@@ -1,9 +1,10 @@
 'use client';
 
-import { Container } from '@mantine/core';
+import { Container, ScrollArea, Space } from '@mantine/core';
 import Header from '@/src/components/Header/Header';
 import { Welcome } from '@/src/components/Welcome/Welcome';
 import Footer from '@/src/components/Footer/Footer';
+import About from '@/src/components/About/About';
 
 export default function HomePage() {
   const containerProps = {
@@ -15,7 +16,11 @@ export default function HomePage() {
     <main>
       <Container {...containerProps} fluid>
         <Header />
-        <Welcome />
+        <ScrollArea.Autosize mx="auto" scrollbars="y">
+          <Welcome />
+          <Space h="lg" />
+          <About />
+        </ScrollArea.Autosize>
         <Footer />
       </Container>
     </main>

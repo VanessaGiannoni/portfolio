@@ -9,7 +9,7 @@ export function Welcome() {
   const isSmallScreen = useBreakpoint('md');
 
   return (
-    <div className={classes.sectionContainer}>
+    <section className={classes.sectionContainer} id="home">
       <div className={classes.helloTitle}>
         <Title ta="left" mt={100} size={48} className={classes.helloTitle}>
           Hello there!{' '}
@@ -37,6 +37,6 @@ export function Welcome() {
           <ResumeButton />
         </div>
       )}
-    </div>
+    </section>
   );
 }

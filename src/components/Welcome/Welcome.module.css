@@ -15,6 +15,10 @@
 
 .nameTitle {
   max-width: 747px;
+
+  @media (max-width: $mantine-breakpoint-md) {
+    max-width: 375px;
+  }
 }
 
 .sectionContainer {
@@ -24,6 +28,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: $mantine-breakpoint-sm) {
+    width: 100%;
+    margin: 0;
+  }
 }
 
 .helloTitle {
