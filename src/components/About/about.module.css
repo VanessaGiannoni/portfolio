@@ -8,13 +8,20 @@
 
 .sectionContainer {
   margin: 400px 0 200px;
+
+  @media (max-width: $mantine-breakpoint-sm) {
+    margin: 200px 0 100px;
+    overflow-x: hidden;
+  }
 }
 
 .textContainer {
   width: 600px;
+  line-height: 1.66;
 
   @media (max-width: $mantine-breakpoint-sm) {
     max-width: 320px;
     text-align: start;
+    line-height: 1.3;
   }
 }

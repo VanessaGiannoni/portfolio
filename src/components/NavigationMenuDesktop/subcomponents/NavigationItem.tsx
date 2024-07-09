@@ -34,7 +34,12 @@ export default function NavigationItem({ href, label }: NavigationItemProps) {
 
   return (
     <li className={classes.navItem}>
-      <NavLink component={Link} href={href ?? '#'} label={label ?? 'Oops'} className={classes.root} />
+      <NavLink
+        component={Link}
+        href={href ?? '#'}
+        label={label ?? 'Oops'}
+        className={classes.root}
+      />
     </li>
   );
 }

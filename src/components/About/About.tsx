@@ -12,20 +12,16 @@ export default function About() {
             <Text>
               I&#39;m Vanessa Giannoni, a Software Engineer with a passion for communication and
               teamwork. Over the years, I&#39;ve had the pleasure of working on a variety of
-              exciting projects for companies like GSK, McCormick, HP, and Trupanion, as well as
-              some interesting internal projects. As a full-stack engineer who loves focusing on the
-              frontend, I always strive to deliver projects that are accessible and inclusive,
-              adhering to WCAG and A11Y standards. <br />
-
-              Writing clean, clear, and scalable code is a priority for me. What I truly enjoy is
-              being part of a team. I&#39;m very communicative and believe in maintaining a healthy,
-              relaxed atmosphere where everyone feels comfortable sharing their knowledge. Helping
-              others grow and succeed is incredibly rewarding, and I love seeing my teammates
-              thrive.
-              <br /> I also enjoy sharing my knowledge through writing technical posts, sharing my
-              development journey, giving talks, and mentoring. In 2024, I had the incredible
-              opportunity to mentor a talented team of girls at Technovation Floripa, and it was
-              such a fulfilling experience.
+              exciting projects for companies like GSK, McCormick, HP, and Trupanion. As a
+              full-stack engineer with strong focus on the frontend, I always strive to deliver
+              projects that are accessible and inclusive, adhering to WCAG and A11Y standards.
+              <br />
+              <br />
+              Writing clean, clear, and scalable code is a priority for me. I also enjoy sharing my
+              knowledge through writing technical posts, sharing my development journey, giving
+              talks, and mentoring. In 2024, I had the incredible opportunity to mentor a talented
+              team of girls at Technovation Florianópolis, and it was such a fulfilling experience.
+              <br />
               <br />
               When I&#39;m not coding, you&#39;ll probably find me studying Go/Baduk (an Asian board
               game), solving puzzles, watching movies and series, or simply enjoying a good cup of
