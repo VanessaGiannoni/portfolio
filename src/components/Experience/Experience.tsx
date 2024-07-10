@@ -1,6 +1,6 @@
 'use client';
 
-import { Container, Timeline } from '@mantine/core';
+import { Timeline } from '@mantine/core';
 import SectionContainer from '../SectionContainer/SectionContainer';
 import SectionTitle from '../SectionTitle/SectionTitle';
 import classes from './experience.module.css';
@@ -81,54 +81,52 @@ export default function Experience() {
 
   return (
     <SectionContainer id="experience">
-      <Container>
-        <SectionTitle title="Experience" />
-        <Company
-          company="ArcTouch"
-          jobTitle="Software Engineer"
-          period="Sep 6, 2021 to May 14, 2024"
-          description="During my time at ArcTouch, I worked on several projects as a Frontend Engineer. I was an active collaborator, utilizing my idle time to provide value for the company. This included giving talks about accessibility, mentoring interns, and writing technical articles for the company blog. Below, you can find a brief overview of my experiences at the company."
-        />
-        <br />
-        <Timeline bulletSize={48} lineWidth={2} autoContrast classNames={classes} active={1}>
-          {timeLineItems.map((item) => (
-            <TimeLineItem
-              title={item.title}
-              jobTitle={item.jobTitle}
-              period={item.period}
-              src={item.src}
-              altText={item.altText}
-              description={item.description}
-              stack={item.stack}
-              key={item.id}
-            />
-          ))}
-        </Timeline>
+      <SectionTitle title="Experience" />
+      <Company
+        company="ArcTouch"
+        jobTitle="Software Engineer"
+        period="Sep 6, 2021 to May 14, 2024"
+        description="During my time at ArcTouch, I worked on several projects as a Frontend Engineer. I was an active collaborator, utilizing my idle time to provide value for the company. This included giving talks about accessibility, mentoring interns, and writing technical articles for the company blog. Below, you can find a brief overview of my experiences at the company."
+      />
+      <br />
+      <Timeline bulletSize={48} lineWidth={2} autoContrast classNames={classes} active={1}>
+        {timeLineItems.map((item) => (
+          <TimeLineItem
+            title={item.title}
+            jobTitle={item.jobTitle}
+            period={item.period}
+            src={item.src}
+            altText={item.altText}
+            description={item.description}
+            stack={item.stack}
+            key={item.id}
+          />
+        ))}
+      </Timeline>
 
-        <Company
-          company="L&M Sistemas"
-          jobTitle="Jr. Software Engineer"
-          period="Jun 2021 - Aug 2021"
-          description={
-            "I had the opportunity to participate in the creation of the company's web development sector, where I worked on some projects in which I developed the front end in ReactJS, aiming for accessibility, responsiveness, and simplicity. Connecting to APIs developed by the company in Delphi Seattle and Postgres database."
-          }
-          stack="Skills: React.js; JavaScript; React bootstrap; Figma; UX/UI; TortoiseSVN"
-        />
-        <Company
-          company="Ninsaúde"
-          jobTitle="Intern"
-          period="May 2020 - May 2021"
-          description="I worked mainly in the backend area, resolving small bugs and applying improvements to the system, using PHP as a language for creating APIs and jQuery as a technology to connect APIs via Ajax, always taking care of the performance and security of the code. I monitor and participate in projects both solo and with the development team, using agile methodologies such as Kanban and XP, and using tools such as Jira to control and delegate tasks."
-          stack="Skills: PHP 7+; JavaScript; jQuery; CSS3; HTML5; Bootstrap; Git; Bitbucket; RestAPI; MySQL;"
-        />
-        <Company
-          company="Góes & Nicoladelli Advogados Associados"
-          jobTitle="Developer"
-          period="Nov 2018 - Oct 2019"
-          description="I was responsible for developing the internal web system of the headquarters of Góes & Nicoladelli Advogados Associados in Criciúma/SC. Mainly focusing on backend infrastructure and software design.The internally developed platform used PHP 5.6 and the Laravel framework, however they were migrating to more current versions. A MySQL database approach was used. From a small but constantly growing structure focused on helping and streamlining the company's work. Our team employed agile methodologies according to our needs"
-          stack="Skills: PHP 5+; JavaScript; jQuery; CSS3; HTML5; Bootstrap; Laravel 5.2; RestAPI; MySQL;"
-        />
-      </Container>
+      <Company
+        company="L&M Sistemas"
+        jobTitle="Jr. Software Engineer"
+        period="Jun 2021 - Aug 2021"
+        description={
+          "I had the opportunity to participate in the creation of the company's web development sector, where I worked on some projects in which I developed the front end in ReactJS, aiming for accessibility, responsiveness, and simplicity. Connecting to APIs developed by the company in Delphi Seattle and Postgres database."
+        }
+        stack="Skills: React.js; JavaScript; React bootstrap; Figma; UX/UI; TortoiseSVN"
+      />
+      <Company
+        company="Ninsaúde"
+        jobTitle="Intern"
+        period="May 2020 - May 2021"
+        description="I worked mainly in the backend area, resolving small bugs and applying improvements to the system, using PHP as a language for creating APIs and jQuery as a technology to connect APIs via Ajax, always taking care of the performance and security of the code. I monitor and participate in projects both solo and with the development team, using agile methodologies such as Kanban and XP, and using tools such as Jira to control and delegate tasks."
+        stack="Skills: PHP 7+; JavaScript; jQuery; CSS3; HTML5; Bootstrap; Git; Bitbucket; RestAPI; MySQL;"
+      />
+      <Company
+        company="Góes & Nicoladelli Advogados Associados"
+        jobTitle="Developer"
+        period="Nov 2018 - Oct 2019"
+        description="I was responsible for developing the internal web system of the headquarters of Góes & Nicoladelli Advogados Associados in Criciúma/SC. Mainly focusing on backend infrastructure and software design.The internally developed platform used PHP 5.6 and the Laravel framework, however they were migrating to more current versions. A MySQL database approach was used. From a small but constantly growing structure focused on helping and streamlining the company's work. Our team employed agile methodologies according to our needs"
+        stack="Skills: PHP 5+; JavaScript; jQuery; CSS3; HTML5; Bootstrap; Laravel 5.2; RestAPI; MySQL;"
+      />
     </SectionContainer>
   );
 }
