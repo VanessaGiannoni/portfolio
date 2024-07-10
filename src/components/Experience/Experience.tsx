@@ -1,6 +1,7 @@
 'use client';
 
-import { Timeline } from '@mantine/core';
+import { Spoiler, Timeline } from '@mantine/core';
+import { FaChevronCircleDown, FaChevronCircleUp } from 'react-icons/fa';
 import SectionContainer from '../SectionContainer/SectionContainer';
 import SectionTitle from '../SectionTitle/SectionTitle';
 import classes from './experience.module.css';
@@ -79,6 +80,18 @@ export default function Experience() {
     },
   ];
 
+  const showLabel = (
+    <span className={classes.spoilerLabelWrapper}>
+      Show more <FaChevronCircleDown />
+    </span>
+  );
+
+  const hideLabel = (
+    <span className={classes.spoilerLabelWrapper}>
+      Hide <FaChevronCircleUp />
+    </span>
+  );
+
   return (
     <SectionContainer id="experience">
       <SectionTitle title="Experience" />
@@ -89,20 +102,29 @@ export default function Experience() {
         description="During my time at ArcTouch, I worked on several projects as a Frontend Engineer. I was an active collaborator, utilizing my idle time to provide value for the company. This included giving talks about accessibility, mentoring interns, and writing technical articles for the company blog. Below, you can find a brief overview of my experiences at the company."
       />
       <br />
-      <Timeline bulletSize={48} lineWidth={2} autoContrast classNames={classes} active={1}>
-        {timeLineItems.map((item) => (
-          <TimeLineItem
-            title={item.title}
-            jobTitle={item.jobTitle}
-            period={item.period}
-            src={item.src}
-            altText={item.altText}
-            description={item.description}
-            stack={item.stack}
-            key={item.id}
-          />
-        ))}
-      </Timeline>
+      <Spoiler hideLabel={hideLabel} showLabel={showLabel} maxHeight={170} classNames={classes}>
+        <Timeline
+          bulletSize={48}
+          lineWidth={2}
+          autoContrast
+          classNames={classes}
+          active={1}
+          mb={25}
+        >
+          {timeLineItems.map((item) => (
+            <TimeLineItem
+              title={item.title}
+              jobTitle={item.jobTitle}
+              period={item.period}
+              src={item.src}
+              altText={item.altText}
+              description={item.description}
+              stack={item.stack}
+              key={item.id}
+            />
+          ))}
+        </Timeline>
+      </Spoiler>
 
       <Company
         company="L&M Sistemas"
