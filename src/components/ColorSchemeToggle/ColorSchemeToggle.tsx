@@ -1,6 +1,6 @@
 'use client';
 
-import { ActionIcon, Group, useComputedColorScheme, useMantineColorScheme } from '@mantine/core';
+import { ActionIcon, Avatar, Group, useComputedColorScheme, useMantineColorScheme } from '@mantine/core';
 import LightDarkIcon from '../icons/LightDarkIcon';
 // import Unicorn from '../icons/Unicorn';
 // import UnicornColored from '../icons/UnicornColored';
@@ -20,6 +20,7 @@ export function ColorSchemeToggle() {
       >
         <LightDarkIcon />
       </ActionIcon>
+      <Avatar src="/vans-logo.png" alt="Vans" />
       {/* <ActionIcon
         variant="transparent"
         color={computedColorScheme === 'light' ? 'black' : 'white'}
