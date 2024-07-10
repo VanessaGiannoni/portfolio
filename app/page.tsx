@@ -5,6 +5,7 @@ import Header from '@/src/components/Header/Header';
 import { Welcome } from '@/src/components/Welcome/Welcome';
 import Footer from '@/src/components/Footer/Footer';
 import About from '@/src/components/About/About';
+import Experience from '@/src/components/Experience/Experience';
 
 export default function HomePage() {
   const containerProps = {
@@ -20,6 +21,7 @@ export default function HomePage() {
           <Welcome />
           <Space h="lg" />
           <About />
+          <Experience />
         </ScrollArea.Autosize>
         <Footer />
       </Container>
