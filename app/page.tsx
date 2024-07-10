@@ -17,12 +17,12 @@ export default function HomePage() {
     <main>
       <Container {...containerProps} fluid>
         <Header />
-        <ScrollArea.Autosize mx="auto" scrollbars="y">
+        <ScrollArea scrollbars="y">
           <Welcome />
           <Space h="lg" />
           <About />
           <Experience />
-        </ScrollArea.Autosize>
+        </ScrollArea>
         <Footer />
       </Container>
     </main>
