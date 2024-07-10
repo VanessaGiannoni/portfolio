@@ -17,14 +17,6 @@ export const menuItems = [
     href: '#experience',
     label: 'Experience',
   },
-  {
-    href: '#blog',
-    label: 'Blog',
-  },
-  {
-    href: '#contact',
-    label: 'Contact',
-  },
 ];
 
 export default function NavigationMenuDesktop() {

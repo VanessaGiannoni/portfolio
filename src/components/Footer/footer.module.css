@@ -15,9 +15,10 @@
 }
 
 .text {
-  font-size: 0.5rem;
+  font-size: 0.8rem;
   font-weight: 600;
   text-align: center;
+  color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
 }
 
 .emailContainer {
@@ -31,6 +32,13 @@
   text-orientation: mixed;
   transform: rotate(180deg);
   gap: 24px;
+  width: 40px;
+  position: fixed;
+  bottom: 20px;
+  right: auto;
+  left: var(--mantine-spacing-sm);
+  z-index: 10;
+  padding: 0 var(--mantine-spacing-sm);
 }
 
 .verticalLine {
@@ -60,8 +68,8 @@
   }
 
   .actionIconsContainer {
-    position: absolute;
+    position: fixed;
     bottom: 20px;
-    right: 0;
+    right: var(--mantine-spacing-sm);
   }
 }

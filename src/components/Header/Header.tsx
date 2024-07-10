@@ -6,12 +6,13 @@ import NavigationMenuDesktop from '../NavigationMenuDesktop/NavigationMenuDeskto
 import { ColorSchemeToggle } from '../ColorSchemeToggle/ColorSchemeToggle';
 import NavigationMenuMobile from '../NavigationMenuMobile/NavigationMenuMobile';
 import useBreakpoint from '@/src/hooks/useBreakpoint';
+import classes from './header.module.css';
 
 export default function Header() {
   const isLargeScreen = useBreakpoint('md');
 
   return (
-    <header>
+    <header className={classes.header}>
       <Group justify="space-between">
         {isLargeScreen ? (
           <>
