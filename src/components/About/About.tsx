@@ -2,11 +2,13 @@
 
 import { Container, Group, Image, Text } from '@mantine/core';
 import classes from './about.module.css';
+import SectionTitle from '../SectionTitle/SectionTitle';
 
 export default function About() {
   return (
     <section id="about" className={classes.sectionContainer}>
       <Container>
+        <SectionTitle title="About" />
         <Group justify="space-between" align="flex-start" gap="lg">
           <div className={classes.textContainer}>
             <Text>
