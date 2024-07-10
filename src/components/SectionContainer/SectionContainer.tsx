@@ -11,9 +11,7 @@ interface SectionContainerProps {
 export default function SectionContainer({ children, id }: SectionContainerProps) {
   return (
     <section className={classes.sectionContainer} id={id}>
-      <Container>
-        {children}
-      </Container>
+      <Container>{children}</Container>
     </section>
   );
 }
