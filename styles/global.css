@@ -6,6 +6,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
 }
 
 #__next {
@@ -16,4 +17,8 @@ body {
 
 main {
   flex: 1;
+}
+
+p, h1, h2, h3 {
+  color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
 }

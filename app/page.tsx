@@ -5,6 +5,7 @@ import Header from '@/src/components/Header/Header';
 import { Welcome } from '@/src/components/Welcome/Welcome';
 import Footer from '@/src/components/Footer/Footer';
 import About from '@/src/components/About/About';
+import Experience from '@/src/components/Experience/Experience';
 
 export default function HomePage() {
   const containerProps = {
@@ -16,11 +17,12 @@ export default function HomePage() {
     <main>
       <Container {...containerProps} fluid>
         <Header />
-        <ScrollArea.Autosize mx="auto" scrollbars="y">
+        <ScrollArea scrollbars="y">
           <Welcome />
           <Space h="lg" />
           <About />
-        </ScrollArea.Autosize>
+          <Experience />
+        </ScrollArea>
         <Footer />
       </Container>
     </main>

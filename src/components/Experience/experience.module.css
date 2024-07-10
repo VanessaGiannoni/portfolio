@@ -1,0 +1,14 @@
+.root {
+  --tl-color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+}
+
+.control {
+  color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+}
+
+.spoilerLabelWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
+}
