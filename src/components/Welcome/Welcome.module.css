@@ -38,6 +38,7 @@
 .helloTitle {
   align-self: flex-start;
   max-width: 747px;
+  color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
 }
 
 .resumeButton {
