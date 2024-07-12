@@ -6,6 +6,7 @@ import {
   Group,
   useComputedColorScheme,
   useMantineColorScheme,
+  useMantineTheme,
 } from '@mantine/core';
 import LightDarkIcon from '../icons/LightDarkIcon';
 // import Unicorn from '../icons/Unicorn';
@@ -15,6 +16,7 @@ export function ColorSchemeToggle() {
   const { setColorScheme } = useMantineColorScheme();
   const computedColorScheme = useComputedColorScheme('light', { getInitialValueInEffect: true });
   const imageUrl = computedColorScheme === 'light' ? '/vans-logo.png' : '/logo-inverted.png';
+  const theme = useMantineTheme();
 
   return (
     <Group justify="right" w={175}>
@@ -22,7 +24,7 @@ export function ColorSchemeToggle() {
         aria-label="toggle-theme"
         onClick={() => setColorScheme(computedColorScheme === 'light' ? 'dark' : 'light')}
         variant="transparent"
-        color={computedColorScheme === 'light' ? 'black' : 'white'}
+        color={computedColorScheme === 'light' ? theme.black : theme.white}
         size="xl"
       >
         <LightDarkIcon />

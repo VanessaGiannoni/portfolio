@@ -1,13 +1,14 @@
 'use client';
 
 import { Title, Text } from '@mantine/core';
+import SkillsBadge from './SkillsBadge';
 
 interface CompanyProps {
   company: string;
   jobTitle: string;
   period: string;
   description: string;
-  stack?: string;
+  stack?: string[];
 }
 export default function Company({ company, jobTitle, period, description, stack }: CompanyProps) {
   return (
@@ -19,9 +20,9 @@ export default function Company({ company, jobTitle, period, description, stack 
         </Text>
       </Title>
       <Text pt={20}>{description}</Text>
-      <Text size="sm" mt={10} fw={700}>
-        {stack}
-      </Text>
+      {stack && (
+        <SkillsBadge stack={stack} />
+      )}
     </article>
   );
 }
