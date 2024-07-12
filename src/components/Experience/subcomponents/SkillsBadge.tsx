@@ -13,14 +13,14 @@ export default function SkillsBadge({ stack }: SkillsBadgeProps) {
 
   return (
     <Group gap={5} mt={10}>
-        <Text size="xs" fw={700}>
-          Skills:
-        </Text>
-        {stack.map((item, index) => (
-          <Badge color={badgeColor} autoContrast variant="outline" radius="sm" key={index}>
-            {item}
-          </Badge>
-        ))}
+      <Text size="xs" fw={700}>
+        Skills:
+      </Text>
+      {stack.map((item, index) => (
+        <Badge color={badgeColor} autoContrast variant="outline" radius="sm" key={index}>
+          {item}
+        </Badge>
+      ))}
     </Group>
   );
 }

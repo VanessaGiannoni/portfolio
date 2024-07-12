@@ -20,9 +20,7 @@ export default function Company({ company, jobTitle, period, description, stack 
         </Text>
       </Title>
       <Text pt={20}>{description}</Text>
-      {stack && (
-        <SkillsBadge stack={stack} />
-      )}
+      {stack && <SkillsBadge stack={stack} />}
     </article>
   );
 }

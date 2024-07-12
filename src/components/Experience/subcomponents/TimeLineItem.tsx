@@ -1,11 +1,6 @@
 'use client';
 
-import {
-  Timeline,
-  Title,
-  Avatar,
-  Text,
-} from '@mantine/core';
+import { Timeline, Title, Avatar, Text } from '@mantine/core';
 import SkillsBadge from './SkillsBadge';
 
 interface TimeLineItemProps {
