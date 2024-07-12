@@ -34,6 +34,7 @@ export default function About() {
             w={300}
             src="/profile-pic.jpeg"
             className={classes.imageFilter}
+            alt="Vans happy taking a good cup of coffee"
           />
         </div>
       </Group>

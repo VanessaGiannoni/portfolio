@@ -16,14 +16,17 @@ export default function Footer() {
     {
       icon: <FaSquareGithub size={isLargeScreen ? 48 : 24} />,
       href: 'https://github.com/VanessaGiannoni',
+      socialMedia: 'GitHub profile',
     },
     {
       icon: <FaMedium size={isLargeScreen ? 48 : 24} />,
       href: 'https://medium.com/@vanessa.o.giannoni',
+      socialMedia: 'Medium blog',
     },
     {
       icon: <FaLinkedin size={isLargeScreen ? 48 : 24} />,
       href: 'https://www.linkedin.com/in/vanessa-osorio-giannoni/',
+      socialMedia: 'Linkedin profile',
     },
   ];
 
@@ -61,7 +64,12 @@ export default function Footer() {
       >
         {isLargeScreen && <hr className={classes.line} />}
         {actionIcons.map((item) => (
-          <IconItem icon={item.icon} href={item.href} key={item.href} />
+          <IconItem
+            icon={item.icon}
+            href={item.href}
+            key={item.href}
+            socialMedia={item.socialMedia}
+          />
         ))}
       </Flex>
 
