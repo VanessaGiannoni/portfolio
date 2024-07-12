@@ -8,7 +8,7 @@ interface CompanyProps {
   jobTitle: string;
   period: string;
   description: string;
-  stack?: string[];
+  stack?: string[] | [];
 }
 export default function Company({ company, jobTitle, period, description, stack }: CompanyProps) {
   return (
