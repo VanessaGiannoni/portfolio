@@ -11,7 +11,6 @@ export default function ResumeButton() {
       component={Link}
       href="/vanessa-resume.pdf"
       target="_blank"
-
     >
       See Resume
     </UnstyledButton>
