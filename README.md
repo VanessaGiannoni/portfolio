@@ -1,69 +1,70 @@
-# Vanessa Giannoni - Portfolio
+# Vanessa Giannoni aka Vans - Portfolio Website
 
-## About Me
+## About
 
-I'm Vanessa Giannoni, a Software Engineer with a passion for communication and teamwork. Over the years, I've had the pleasure of working on a variety of exciting projects for companies like GSK, McCormick, HP, and Trupanion, as well as some interesting internal projects.
+Welcome to my portfolio website! This site showcases my projects, skills, and experiences as a Software Engineer focused on full-stack development with a passion for the frontend. Below, you'll find instructions on how to install and run the project locally.
 
-As a full-stack engineer who loves focusing on the frontend, I always strive to deliver projects that are accessible and inclusive, adhering to WCAG and A11Y standards. Writing clean, clear, and scalable code is a priority for me.
+## Color Scheme
 
-What I truly enjoy is being part of a team. I'm very communicative and believe in maintaining a healthy, relaxed atmosphere where everyone feels comfortable sharing their knowledge. Helping others grow and succeed is incredibly rewarding, and I love seeing my teammates thrive.
+- **Light**: `#fffbeb`
+- **Dark**: `#232323`
 
-I also enjoy sharing my knowledge through writing technical posts, sharing my development journey, giving talks, and mentoring. In 2024, I had the incredible opportunity to mentor a talented team of girls at Technovation Floripa, and it was such a fulfilling experience.
+## Installation and Setup
 
-When I'm not coding, you'll probably find me studying Go/Baduk (an Asian board game), solving puzzles, watching movies and series, or simply enjoying a good cup of coffee or chimarrão with my family.
+Follow these steps to get the project up and running on your local machine.
 
-## Skills
+### Prerequisites
 
-- **Languages & Frameworks**: JavaScript, TypeScript, React.js, Next.js, VUE.js, Nuxt.js, Node.js, Python
-- **Testing & Tools**: Jest, Pytest, Pandas, Git, Github, CSS-in-JS, SCSS, CSS3, HTML5
-- **Methodologies**: Agile (SCRUM)
-- **Accessibility**: WCAG, A11Y Standards
+Make sure you have the following software installed on your machine:
 
-## Projects
+- [Node.js](https://nodejs.org/) (version 14.x or higher)
+- [Git](https://git-scm.com/)
 
-### Trupanion
+### Clone the Repository
 
-The project consisted of three different management platforms, a registration and sales website for pet life insurance, and the Back-end For Front-end (BFF) project. My work went far beyond development, as I worked on all sides, I needed flexibility, adaptation, and much communication to be able to carry out the different tasks. In addition to working at all ends, I helped fellow developers at all levels and project managers to deliver a product within accessibility standards (AA) and with maximum quality and scalability.
+First, clone the repository to your local machine using Git.
 
-- **Stacks**: TypeScript, Jest, Node.js, Zod, Mantine, Git, Azure, Next.js, CSS-in-JS, BFF, SCRUM, Server-side rendering (SSR)
+```git clone https://github.com/yourusername/your-repo-name.git``` 
+```cd your-repo-name```
 
-### Zoho People
+### Install dependencies
 
-In my first internal project within the company, I was able to explore new horizons and had the freedom to choose the technology that best suited the situation. What started as a small migration that would use Zoho People's HR management system API, ended up becoming something bigger. The idea was to migrate the spreadsheet system to the new platform, so I needed to be side by side with the client to understand their pain and be able to adapt a Python script so that they could download and upload the information on the requested platform, in addition, I took the opportunity to add some tests using PyTest and thus increase the code quality.
+Next, install the necessary dependencies using npm or yarn.
 
-- **Stacks**: Python3, PyTest, Pandas, Google Sheets API
+```npm install```
 
-### HP One
+Or yarn:
 
-During my time at HP, I had the opportunity to work in two different teams. The first team focused on creating a micro-frontend (MFE) orchestrator so HP's development team could add new MFE projects in different technologies alongside legacy projects. In this team, I focused on documenting and mapping the project for new developers who would use the tool. In the second team, I focused on developing a platform for controlling the plans users would access when they subscribed to the HP One service. This team focused on developing micro-frontends in ReactJS and TypeScript.
+```yarn install```
 
-- **Stacks**: React.js, Jest, TypeScript, Babel, Git, Github, SCRUM, Documentation, Docker
 
-### McCormick - Super Bowl Bonecoin
+### Running the project
+After the dependencies are installed, you can start the development server.
 
-The aim of this project was to go live during the Super Bowl in the United States and Canada. The main idea was that users could take photos of chicken wing bones and turn them into coins, and at the end of the competition whoever had the most coins could exchange them for a prize. This project was developed as a web app for cell phone and tablet browsers only. The technologies used for development were ReactJS and Typescript.
+```npm run dev```
 
-- **Stacks**: TypeScript, CSS-in-JS, SCSS
+or 
 
-### GSK - Think Tank Challenge
+```yarn dev```
 
-The project consisted of a static website developed in VUE with only one form to receive user registrations. The target the future website provides information on multiple myeloma and encourages patients to share their stories in order to promote scientific research into this rare cancer.
+Open your browser and navigate to http://localhost:3000 to see the website in action.
 
-- **Stacks**: VUE.js, Nuxt.js, Sass, JavaScript, Client-side rendering, Git, Github
+### Building for Production
+To build the project for production, use the following command:
 
-## Certifications
+```npm run build```
 
-- IAAP Certification Quick Guide
-- Accessibility Fundamentals - Disabilities, Guidelines, and Laws
+or
 
-## Blog
+```yarn build```
 
-I regularly share my knowledge through writing technical posts and sharing my development journey on my [Medium Blog](https://medium.com/@vanessa.o.giannoni).
+The optimized and minified output will be in the dist folder.
 
 ## Contact
+Feel free to reach out if you have any questions or suggestions!
 
-- **Email**: vanessa.o.giannoni@gmail.com
-- **Phone**: +55 48 999312635
-- **LinkedIn**: [Vanessa Osorio Giannoni](https://www.linkedin.com/in/vanessa-osorio-giannoni/)
+Email: vanessa.o.giannoni@gmail.com
+LinkedIn: [Vanessa Giannoni](https://www.linkedin.com/in/vanessa-osorio-giannoni/)
 
-Feel free to reach out if you have any questions, opportunities, or just want to connect!
+Thank you for visiting my portfolio website!
+
