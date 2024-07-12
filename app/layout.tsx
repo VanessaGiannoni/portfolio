@@ -5,8 +5,8 @@ import { theme } from '../theme';
 import '../styles/global.css';
 
 export const metadata = {
-  title: 'Portfolio',
-  description: 'Welcome to Vans portfolio',
+  title: 'Vanessa Giannoni aka Vans',
+  description: 'Vanessa Giannoni aka Vans portfolio',
 };
 
 export default function RootLayout({ children }: { children: any }) {
@@ -14,7 +14,7 @@ export default function RootLayout({ children }: { children: any }) {
     <html lang="en">
       <head>
         <ColorSchemeScript />
-        <link rel="shortcut icon" href="/vans-logo.png" />
+        <link rel="shortcut icon" href="/vans-logo.png" type="image/x-icon" />
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width, user-scalable=no"
