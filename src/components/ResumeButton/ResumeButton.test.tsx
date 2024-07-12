@@ -10,7 +10,7 @@ describe('ResumeButton Component', () => {
 
     const buttonElement = screen.getByText('See Resume');
     expect(buttonElement).toBeInTheDocument();
-    expect(buttonElement).toHaveAttribute('href', '#see-resume');
+    expect(buttonElement).toHaveAttribute('href', '/vanessa-resume.pdf');
     expect(buttonElement).toHaveClass('buttonBase');
   });
 });

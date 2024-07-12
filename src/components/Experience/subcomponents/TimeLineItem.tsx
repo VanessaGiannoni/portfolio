@@ -1,6 +1,7 @@
 'use client';
 
 import { Timeline, Title, Avatar, Text } from '@mantine/core';
+import SkillsBadge from './SkillsBadge';
 
 interface TimeLineItemProps {
   title: string;
@@ -9,7 +10,7 @@ interface TimeLineItemProps {
   src: string;
   altText: string;
   description: string;
-  stack: string;
+  stack: [] | string[];
 }
 
 export default function TimeLineItem({
@@ -39,9 +40,7 @@ export default function TimeLineItem({
       <Text size="sm" pt={10}>
         {description}
       </Text>
-      <Text size="xs" mt={4} fw={700}>
-        Skills: {stack}
-      </Text>
+      <SkillsBadge stack={stack} />
     </Timeline.Item>
   );
 }

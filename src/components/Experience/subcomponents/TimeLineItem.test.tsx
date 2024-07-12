@@ -13,7 +13,7 @@ describe('TimeLineItem Component', () => {
     src: '/GSK-logo.jpg',
     altText: 'Avatar for Project Alpha',
     description: 'Led a team of developers to build a cutting-edge project.',
-    stack: 'React, Node.js, TypeScript',
+    stack: ['React', 'Node.js', 'TypeScript'],
   };
 
   test('renders title, job title, and period', () => {
@@ -37,13 +37,15 @@ describe('TimeLineItem Component', () => {
     ).toBeInTheDocument();
   });
 
-  test('renders stack', () => {
+  test('renders stack badges', () => {
     render(
       <Timeline>
         <TimeLineItem {...mockProps} />
       </Timeline>
     );
-    expect(screen.getByText('Skills: React, Node.js, TypeScript')).toBeInTheDocument();
+    mockProps.stack.forEach((skill) => {
+      expect(screen.getByText(skill)).toBeInTheDocument();
+    });
   });
 
   test('renders avatar with correct src and alt text', () => {

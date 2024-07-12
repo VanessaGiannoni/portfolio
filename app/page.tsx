@@ -17,7 +17,7 @@ export default function HomePage() {
     <main>
       <Container {...containerProps} fluid>
         <Header />
-        <ScrollArea scrollbars="y">
+        <ScrollArea scrollbars="y" type="never" scrollbarSize={2}>
           <Welcome />
           <Space h="lg" />
           <About />

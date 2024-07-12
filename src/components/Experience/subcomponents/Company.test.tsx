@@ -10,7 +10,7 @@ describe('Company Component', () => {
     jobTitle: 'Software Engineer',
     period: 'Jan 2020 - Present',
     description: 'Developing cutting-edge solutions.',
-    stack: 'React, Node.js, TypeScript',
+    stack: ['React', 'Node.js', 'TypeScript'],
   };
 
   test('renders company name, job title, and period', () => {
@@ -24,14 +24,18 @@ describe('Company Component', () => {
     expect(screen.getByText('Developing cutting-edge solutions.')).toBeInTheDocument();
   });
 
-  test('renders stack when provided', () => {
+  test('renders stack badges when provided', () => {
     render(<Company {...mockProps} />);
-    expect(screen.getByText('React, Node.js, TypeScript')).toBeInTheDocument();
+    mockProps.stack.forEach((skill) => {
+      expect(screen.getByText(skill)).toBeInTheDocument();
+    });
   });
 
-  test('does not render stack when not provided', () => {
+  test('does not render stack badges when stack is not provided', () => {
     const { stack, ...propsWithoutStack } = mockProps;
     render(<Company {...propsWithoutStack} />);
-    expect(screen.queryByText('React, Node.js, TypeScript')).not.toBeInTheDocument();
+    mockProps.stack.forEach((skill) => {
+      expect(screen.queryByText(skill)).not.toBeInTheDocument();
+    });
   });
 });
