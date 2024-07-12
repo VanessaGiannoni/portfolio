@@ -1,11 +1,15 @@
 'use client';
 
 import { Center, Flex } from '@mantine/core';
+import { useColorScheme } from '@mantine/hooks';
 import anime from 'animejs';
 import Image from 'next/image';
 import { useEffect } from 'react';
 
 export default function SplashScreen({ finishLoading }: { finishLoading: Function }) {
+  const colorScheme = useColorScheme();
+  const imageUrl = colorScheme === 'light' ? '/vans-logo.png' : '/logo-inverted.png';
+
   useEffect(() => {
     const timeout = setTimeout(() => {
       finishLoading(false);
@@ -25,7 +29,7 @@ export default function SplashScreen({ finishLoading }: { finishLoading: Functio
   return (
     <Center maw="100%" h="100vh">
       <Flex className="splash-screen" justify="center" align="center">
-        <Image src="/vans-logo.svg" alt="Logo" width={500} height={500} />
+        <Image src={imageUrl} alt="Logo" width={500} height={500} />
       </Flex>
     </Center>
   );

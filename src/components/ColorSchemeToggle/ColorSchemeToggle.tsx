@@ -14,6 +14,7 @@ import LightDarkIcon from '../icons/LightDarkIcon';
 export function ColorSchemeToggle() {
   const { setColorScheme } = useMantineColorScheme();
   const computedColorScheme = useComputedColorScheme('light', { getInitialValueInEffect: true });
+  const imageUrl = computedColorScheme === 'light' ? '/vans-logo.png' : '/logo-inverted.png';
 
   return (
     <Group justify="right" w={175}>
@@ -26,7 +27,7 @@ export function ColorSchemeToggle() {
       >
         <LightDarkIcon />
       </ActionIcon>
-      <Avatar src="/vans-logo.png" alt="Vans" />
+      <Avatar src={imageUrl} alt="Vans" />
       {/* <ActionIcon
         variant="transparent"
         color={computedColorScheme === 'light' ? 'black' : 'white'}
