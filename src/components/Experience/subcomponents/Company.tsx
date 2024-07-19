@@ -16,7 +16,7 @@ export default function Company({ company, jobTitle, period, description, stack 
       <Title order={3} mt={45}>
         {company}
         <Text size="sm" mt={4} fw={500}>
-          {jobTitle} - Period: {period}
+          {jobTitle} - {period}
         </Text>
       </Title>
       <Text pt={20}>{description}</Text>
