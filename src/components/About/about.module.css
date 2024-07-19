@@ -1,0 +1,27 @@
+.imageFilter {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  border:2px solid light-dark(var(--mantine-color-black), var(--mantine-color-white));
+  box-shadow: 10px 10px 0px -5px light-dark(var(--mantine-color-black), var(--mantine-color-white));
+}
+
+.sectionContainer {
+  margin: 400px 0 200px;
+
+  @media (max-width: $mantine-breakpoint-sm) {
+    margin: 200px 0 100px;
+    overflow-x: hidden;
+  }
+}
+
+.textContainer {
+  width: 600px;
+  line-height: 1.66;
+
+  @media (max-width: $mantine-breakpoint-sm) {
+    max-width: 320px;
+    text-align: start;
+    line-height: 1.3;
+  }
+}

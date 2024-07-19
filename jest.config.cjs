@@ -9,6 +9,7 @@ const customJestConfig = {
   moduleNameMapper: {
     '^@/components/(.*)$': '<rootDir>/components/$1',
     '^@/pages/(.*)$': '<rootDir>/pages/$1',
+    '\\.module\\.css$': 'identity-obj-proxy',
   },
   testEnvironment: 'jest-environment-jsdom',
 };

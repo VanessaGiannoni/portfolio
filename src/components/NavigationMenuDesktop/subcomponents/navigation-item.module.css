@@ -1,0 +1,14 @@
+.root {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.root:hover,
+.root:focus,
+.root:active,
+.root:visited {
+  background-color: inherit;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}

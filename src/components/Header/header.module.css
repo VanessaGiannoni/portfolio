@@ -1,0 +1,10 @@
+.header {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  padding: var(--mantine-spacing-sm);
+  background-color: light-dark(var(--mantine-color-white), var(--mantine-color-black));
+  z-index: 1;
+}
+
