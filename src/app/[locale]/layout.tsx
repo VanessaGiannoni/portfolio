@@ -2,6 +2,7 @@ import '@mantine/core/styles.css';
 import { MantineProvider, ColorSchemeScript } from '@mantine/core';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
+import { CookiesProvider } from 'next-client-cookies/server';
 import { theme } from '../../../theme';
 import SplashScreenProvider from '@/src/providers/SplashScreenProvider';
 
@@ -34,9 +35,11 @@ export default async function RootLayout({ children, params }: RootLayoutParams)
       </head>
       <body>
         <NextIntlClientProvider messages={messages}>
+        <CookiesProvider>
           <MantineProvider theme={theme}>
             <SplashScreenProvider>{children}</SplashScreenProvider>
           </MantineProvider>
+        </CookiesProvider>
         </NextIntlClientProvider>
       </body>
     </html>
