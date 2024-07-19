@@ -8,7 +8,7 @@ describe('ResumeButton Component', () => {
   it('renders with correct href and text', () => {
     render(<ResumeButton />);
 
-    const buttonElement = screen.getByText('See Resume');
+    const buttonElement = screen.getByText('See resume');
     expect(buttonElement).toBeInTheDocument();
     expect(buttonElement).toHaveAttribute('href', '/vanessa-resume.pdf');
     expect(buttonElement).toHaveClass('buttonBase');
