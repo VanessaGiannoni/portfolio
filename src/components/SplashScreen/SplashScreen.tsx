@@ -29,7 +29,7 @@ export default function SplashScreen({ finishLoading }: { finishLoading: Functio
   return (
     <Center maw="100%" h="100vh">
       <Flex className="splash-screen" justify="center" align="center">
-        <Image src={imageUrl} alt="Logo" width={500} height={500} />
+        <Image src={imageUrl} alt="Logo" width={100} height={100} />
       </Flex>
     </Center>
   );
