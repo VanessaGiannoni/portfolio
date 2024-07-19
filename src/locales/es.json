@@ -1,0 +1,32 @@
+{
+  "header": {
+    "see_resume": "Ver curriculum",
+    "navigation": {
+      "home": { 
+        "label": "Inicio",
+        "href": "#home"
+      },
+      "about": {
+        "label": "Sobre",
+        "href": "#about"
+      },
+      "experience": {
+        "label": "Experiencia",
+        "href": "#experience"
+      }
+    }
+  },
+  "welcome": {
+    "description": "Hola!",
+    "description_2": "Me llamo...",
+    "name": "Vanessa Giannoni, o apenas",
+    "nickname": "Vans",
+    "slogan": "Y yo construyo cosas... Bueno algo asi"
+  },
+  "about": {
+    "section_title": "Sobre",
+    "description": "Hola, me llamo Vanessa Giannoni y sou una programadora full-stack con foco en desarrollo front-end. Traté de especializarme en criar proyectos acesibles, inclusivos y escalables. Me encanta trabajar en equipe y soy muy comunicativa, los ambientes colaborativos son los que más me gustan trabajar. Además me encanta poder compartir mi conocimiento escribiendo artículos tecnicos en mi blog personal, y también mentorar iniciantes en la carrera. Tuve la oportunidad de mentorar un grupo de chicas para el evento de Technovation Girls in Florianópolis 2024 y adoro poder inspirar otras mujeres compartiendo mis experiencias de inicio de carrera en charlas.",
+    "description_2": "Cuando no estoy 'codificando', podrás encontrarme estudiando Go/Baduk (un juego de tablero asiatico), jugando puzzles, mirando series o películas, o simplemente tomando un buen café o un buen mate con mi familia.",
+    "small_description": "Vamos a crear algo increíble juntos!"
+  }
+}

@@ -1,0 +1,32 @@
+{ 
+  "header": {
+    "see_resume": "See resume",
+    "navigation": {
+      "home": { 
+        "label": "Home",
+        "href": "#home"
+      },
+      "about": {
+        "label": "About",
+        "href": "#about"
+      },
+      "experience": {
+        "label": "Experience",
+        "href": "#experience"
+      }
+    }
+  },
+  "welcome": {
+    "description": "Hello there!",
+    "description_2": "My name is...",
+    "name": "Vanessa Giannoni, or just",
+    "nickname": "Vans",
+    "slogan": "And I'm a builder! Well...something like that"
+  },
+  "about": {
+    "section_title": "About",
+    "description": "Hi, I'm Vanessa Giannoni, a passionate full-stack developer with a focus on front-end development. I specialize in creating accessible, inclusive, and scalable projects. As a true team player with strong communication skills, I thrive in collaborative environments. I share my knowledge through my blog and have mentored a team of girls for Technovation Girls Florianópolis 2024. As a speaker, I enjoy inspiring other women by sharing my early career experiences.",
+    "description_2": "When I'm not coding, you'll probably find me studying Go/Baduk (an Asian board game), solving puzzles, watching movies and series, or simply enjoying a good cup of coffee or chimarrão with my family.",
+    "small_description": "Let's build something great together!"
+  }
+}
