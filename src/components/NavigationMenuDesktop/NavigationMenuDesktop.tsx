@@ -12,13 +12,12 @@ export default function NavigationMenuDesktop() {
     <Group>
       <ul className={classes.navList}>
         {keys.map((item) => (
-            <NavigationItem
-              href={t(`${item}.href`)}
-              label={t(`${item}.label`)}
-              key={t(`${item}.href`)}
-            />
-          )
-        )}
+          <NavigationItem
+            href={t(`${item}.href`)}
+            label={t(`${item}.label`)}
+            key={t(`${item}.href`)}
+          />
+        ))}
       </ul>
     </Group>
   );

@@ -21,7 +21,7 @@ export default function LocaleSelection() {
     { value: 'es', label: '🇪🇸' },
   ];
 
-  const currentLocaleFlag = locale.find(option => option.value === currentLocale)?.label || '🌐';
+  const currentLocaleFlag = locale.find((option) => option.value === currentLocale)?.label || '🌐';
 
   return (
     <Select

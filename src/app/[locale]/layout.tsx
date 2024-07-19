@@ -35,11 +35,11 @@ export default async function RootLayout({ children, params }: RootLayoutParams)
       </head>
       <body>
         <NextIntlClientProvider messages={messages}>
-        <CookiesProvider>
-          <MantineProvider theme={theme}>
-            <SplashScreenProvider>{children}</SplashScreenProvider>
-          </MantineProvider>
-        </CookiesProvider>
+          <CookiesProvider>
+            <MantineProvider theme={theme}>
+              <SplashScreenProvider>{children}</SplashScreenProvider>
+            </MantineProvider>
+          </CookiesProvider>
         </NextIntlClientProvider>
       </body>
     </html>
