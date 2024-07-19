@@ -31,6 +31,8 @@
   },
   "experience": {
     "section_title": "Experience",
+    "hide": "Hide",
+    "show_more": "Show more",
     "arctouch": {
       "company": "ArcTouch",
       "job_title": "Software Engineer",
