@@ -70,13 +70,13 @@ export default function Experience() {
 
   const showLabel = (
     <span className={classes.spoilerLabelWrapper}>
-      Show more <FaChevronCircleDown />
+      {t('show_more')} <FaChevronCircleDown />
     </span>
   );
 
   const hideLabel = (
     <span className={classes.spoilerLabelWrapper}>
-      Hide <FaChevronCircleUp />
+      {t('hide')} <FaChevronCircleUp />
     </span>
   );
 
