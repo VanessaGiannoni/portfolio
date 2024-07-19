@@ -9,6 +9,7 @@ import {
   useMantineTheme,
 } from '@mantine/core';
 import LightDarkIcon from '../icons/LightDarkIcon';
+import { Link } from '@/src/navigation';
 // import Unicorn from '../icons/Unicorn';
 // import UnicornColored from '../icons/UnicornColored';
 
@@ -19,7 +20,7 @@ export function ColorSchemeToggle() {
   const theme = useMantineTheme();
 
   return (
-    <Group justify="right" w={175}>
+    <Group justify="right">
       <ActionIcon
         aria-label="toggle-theme"
         onClick={() => setColorScheme(computedColorScheme === 'light' ? 'dark' : 'light')}
@@ -29,7 +30,9 @@ export function ColorSchemeToggle() {
       >
         <LightDarkIcon />
       </ActionIcon>
-      <Avatar src={imageUrl} alt="Vans" />
+      <Link aria-label="Go to home" href="/">
+        <Avatar src={imageUrl} alt="Vans logo" />
+      </Link>
       {/* <ActionIcon
         variant="transparent"
         color={computedColorScheme === 'light' ? 'black' : 'white'}
