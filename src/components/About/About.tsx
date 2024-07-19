@@ -12,13 +12,13 @@ export default function About() {
     <SectionContainer id="about">
       <SectionTitle title={t('section_title')} />
       <Group justify="space-between" align="flex-start" gap="lg">
-        <div className={classes.textContainer}>
+        <article className={classes.textContainer}>
           <Text>{t('description')}</Text>
           <br />
           <Text>{t('description_2')}</Text>
           <br />
           <Text fw={600}>{t('small_description')}</Text>
-        </div>
+        </article>
         <div>
           <Image
             radius="md"
