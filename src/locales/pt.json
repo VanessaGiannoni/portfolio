@@ -25,8 +25,115 @@
   },
   "about": {
     "section_title": "Sobre",
-    "description": "Oi, me chamo Vanessa Giannoni sou uma desenvolvedora full-stack com foco em front-end. Eu me especializei em criar projetos acessíveis, inclusivos e escaláveis. Adoro trabalhar em equipe e tenho fortes habilidades de comuynicação, e amo trabalhar em ambientes colaborativos. Gosto de compartilhar meu conhecimento através de artigos técnicos no meu blog, e também mentorar iniciantes na carreira. Tive a oportunidade de mentorar um time de garotas em 2024 para o evento do Technovation Girls Florianópolis. Como palestrante eu adoro poder inspirar outras mulheres compartilhando mais sobre o início da minha carreira em palestras.",
+    "description": "Oi, me chamo Vanessa Giannoni sou uma desenvolvedora full-stack com foco em front-end. Eu me especializei em criar projetos acessíveis, inclusivos e escaláveis. Adoro trabalhar em equipe e tenho fortes habilidades de comunicação, e amo trabalhar em ambientes colaborativos. Gosto de compartilhar meu conhecimento através de artigos técnicos no meu blog, e também mentorar iniciantes na carreira. Tive a oportunidade de mentorar um time de garotas em 2024 para o evento do Technovation Girls Florianópolis. Como palestrante eu adoro poder inspirar outras mulheres compartilhando mais sobre o início da minha carreira em palestras.",
     "description_2": " Quando não estou 'codando', você poderá me encontrar estudando Go/Baduk (jogo de tabuleiro asiático), montando quebra-cabeças, assistindo séries ou filmes, ou simplesmente aproveitando uma boa xícara de café ou um bom chimarrão com a minha família.",
     "small_description": "Vamos construir algo incrível juntos!"
+  },
+  "experience": {
+    "section_title": "Experiência",
+    "arctouch": {
+      "company": "ArcTouch",
+      "job_title": "Engenheira de Software",
+      "period": "6 de Set de 2021 a 14 de Mai de 2024",
+      "description": "Durante meu tempo na ArcTouch, trabalhei em vários projetos como Engenheira Frontend. Fui uma colaboradora ativa, utilizando meu tempo livre para agregar valor à empresa. Isso incluiu dar palestras sobre acessibilidade, mentorar estagiários e escrever artigos técnicos para o blog da empresa. A seguir, você pode encontrar um breve resumo das minhas experiências na empresa.",
+      "timeline": {
+        "trupanion": {
+          "id": 0,
+          "title": "Trupanion",
+          "jobTitle": "Engenheira de Software Pleno",
+          "period": "Período: 21 de Ago de 2023 a 31 de Mar de 2024",
+          "src": "/trupanion-logo.png",
+          "altText": "Trupanion logo",
+          "description": "O projeto consistia em três diferentes plataformas de gestão e um website de cadastro e vendas para seguro de vida para pets, além do projeto de backend para frontend (BFF). Meu trabalho foi muito além do desenvolvimento, como atuei em todas as pontas, precisei de flexiblidade, adaptação e muita comunicação para poder realizar as distintas tarefas. Além disso, auxiliei colegas desenvolvedores de todos os níveis e gestores de projeto para conseguirmos entregar um produto dentro dos padrões de acessibilidade (AA) e com máxima qualidade e escalabilidade."
+        },
+        "gsk_ttf_2": {
+          "id": 1,
+          "title": "GSK - Target The Future",
+          "jobTitle": "Engenheira de Software Jr.",
+          "period": "Perído: Jun de 2024 a Ago de 2024",
+          "src": "/GSK-logo.png",
+          "altText": "GSK logo",
+          "description": "Desta vez, o cliente precisava atualizar algumas páginas de um site que foi desenvolvido em 2021. Foram adicionadas algumas alterações de texto e estilo. Como o projeto já havia passado por vários desenvolvedores, adicionei documentação para explicar alguns dos processos realizados e vinculei as tarefas do Jira que solicitavam as mudanças, facilitando assim para futuros desenvolvedores encontrarem o que precisavam. Além disso, implementei um sistema de versionamento com a equipe de DevOps e lançamentos que não havia sido implementado anteriormente."
+        },
+        "zoho": {
+          "id": 2,
+          "title": "ArcTouch - Zoho People Migration",
+          "jobTitle": "Engenheira de Software Jr.",
+          "period": "Período: 1 de Nov de 2023 a 31 de Mai de 2024",
+          "src": "/zoho-people-logo.png",
+          "altText": "Zoho people logo",
+          "description": "No meu primeiro projeto interno dentro da empresa pude explorar novos horizontes e tive liberdade de escolher a tecnologia que melhor se adequava à situação. O que começou como uma pequena migração que utilizaria a API do sistema de gerenciamento de RH da Zoho People, acabou se tornando algo maior. A ideia consistia em migrar o sistema de planilhas para a nova plataforma, com isso precisei estar lado a lado com o cliente para entender sua dor e conseguir adaptar um script em Python para que pudesse fazer o download e upload das informações na plataforma solicitada, além disso aproveitei para adicionar alguns testes utilizando PyTest e assim incrementar a qualidade de código"
+        },
+        "hp": {
+          "id": 3,
+          "title": "HP - HP One",
+          "jobTitle": "Engenheira de Software Jr.",
+          "period": "Período: Mar de 2022 a 30 de Out de 2023",
+          "src": "/hp-logo.png",
+          "altText": "HP logo",
+          "description": "Durante a minha estada na HP tive a oportunidade de trabalhar em duas equipes diferentes. O primeiro time onde trabalhei, tinha como foco criar um orquestrador de microfrontends (MFE) para que a equipe de desenvolvimento da HP pudesse adicionar novos projetos de MFE em diferentes tecnologias junto aos projetos legados. Nesta equipe eu trabalhei com foco em documentar e mapear o projeto para novos desenvolvedores que viriam a utilizar a ferramenta. Na segunda equipe meu foco foi o desenvolvimento de uma plataforma de controle de planos que o usuário teria acesso ao contratar o serviço HP One, este time tinha como foco desenvolver microfrontends em ReactJS e TypeScript."
+        },
+        "bonecoin": {
+          "id": 4,
+          "title": "McCormick's - Super Bowl Bonecoin",
+          "jobTitle": "Engenheira de Software Jr.",
+          "period": "Período: 16 de Nov de 2021 a 15 de Fev de 2022",
+          "src": "/mccormick-logo.png",
+          "altText": "McCormick's logo",
+          "description": "O objetivo deste projeto era ficar no ar durante o super bowl nas localidades de Estados Unidos e Canadá, a ideia principal era que o usuário pudesse tirar fotos de ossos de asinhas de galinha e os convertesse em moedas digitais, ao final do concurso quem tivesse mais quantidade de moedas poderia trocar por um prêmio. Este projeto foi desenvolvido como um web app voltado para navegadores de celular e tablets apenas. As tecnologias utilizadas para o desenvolvimento foram ReactJS e Typescript."
+        },
+        "gsk_ttf": {
+          "id": 5,
+          "title": "GSK - Target The Future",
+          "jobTitle": "Engenheira de Software Jr.",
+          "period": "Período: Out de 2021 a Nov de 2021",
+          "src": "/GSK-logo.png",
+          "altText": "GSK's logo",
+          "description": "O projeto consistia em um website estático desenvolvido em VUE com apenas um formulário para receber as inscrições dos usuários. O site target the future informa sobre myeloma múltiplo e incentiva o compartilhamento de históricos entre os pacientes para fomentar a pesquisa científica sobre este câncer raro."
+        }
+      }
+    },
+    "lm_sistemas": {
+      "company": "L&M Sistemas",
+      "job_title": "Engenheira de Software Jr.",
+      "period": "Jun de 2021 a Ago de 2021",
+      "description": "Tive a oportunidade de participar da criação do setor de desenvolvimento web da empresa, onde trabalhei em alguns projetos os quais desenvolvi o frontend em ReactJS, visando acessibilidade, responsividade e simplicidade. Conectando a APIs desenvolvidas pela empresa em Delphi Seattle e banco de dados Postgrees.",
+      "stack": ["React.js", "JavaScript", "React bootstrap", "Figma", "UX/UI", "TortoiseSVN"]
+    },
+    "ninsaude": {
+      "company": "Ninsaúde",
+      "job_title": "Estagiária",
+      "period": "Mai de 2020 a Mai de 2021",
+      "description": "Atuei principalmente na área de backend resolvendo pequenos bugs e aplicando melhorias no sistema, empregando PHP como linguagem para criação de API e jQuery como tecnologia para conectar as APIs via Ajax, cuidando sempre a performance e segurança do código. Acompanho e participo de projetos tanto solo quanto junto à equipe de desenvolvimento, fazendo uso de metodologias ágeis como Kanban e XP, e utilizando ferramentas como Jira para controle e delegação de tarefas.",
+      "stack": [
+        "PHP 7+",
+        "JavaScript",
+        "jQuery",
+        "CSS3",
+        "HTML5",
+        "Bootstrap",
+        "Git",
+        "Bitbucket",
+        "RestAPI",
+        "MySQL"
+      ]
+    },
+    "goes": {
+      "company": "Góes & Nicoladelli Advogados Associados",
+      "job_title": "Desenvolvedora",
+      "period": "Nov de 2018 a Out de 2019",
+      "description": "Fui responsável pelo desenvolvimento do sistema web interno da matriz da Góes & Nicoladelli Advogados Associados em Criciúma / SC. Focando principalmente na infraestrutura de back-end e design de software. A plataforma desenvolvida internamente, fazia uso do PHP 5.6 e o do framework Laravel, no entanto estávam migrando para versões mais atuais. Utilizou-se uma abordagem de banco de dados MySQL. De uma estrutura pequena, mas em constante crescimento focada em auxiliar e agilizar o trabalho da empresa. Nossa equipe empregava metodologias ágeis de acordo com as nossas necessidades.",
+      "stack": [
+        "PHP 5+",
+        "JavaScript",
+        "jQuery",
+        "CSS3",
+        "HTML5",
+        "Bootstrap",
+        "Laravel 5.2",
+        "RestAPI",
+        "MySQL"
+      ]
+    }
   }
 }
