@@ -27,7 +27,10 @@ export default function Header() {
         ) : (
           <>
             <NavigationMenuMobile />
-            <ColorSchemeToggle />
+            <Group justify="right">
+              <ColorSchemeToggle />
+              <LocaleSelection />
+            </Group>
           </>
         )}
       </Group>
