@@ -7,6 +7,7 @@ import { ColorSchemeToggle } from '../ColorSchemeToggle/ColorSchemeToggle';
 import NavigationMenuMobile from '../NavigationMenuMobile/NavigationMenuMobile';
 import useBreakpoint from '@/src/hooks/useBreakpoint';
 import classes from './header.module.css';
+import LocaleSelection from '../LocaleSelection/LocaleSelection';
 
 export default function Header() {
   const isLargeScreen = useBreakpoint('md');
@@ -18,7 +19,10 @@ export default function Header() {
           <>
             <ResumeButton />
             <NavigationMenuDesktop />
-            <ColorSchemeToggle />
+            <Group justify="right">
+              <ColorSchemeToggle />
+              <LocaleSelection />
+            </Group>
           </>
         ) : (
           <>

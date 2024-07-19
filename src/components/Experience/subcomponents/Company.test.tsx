@@ -16,7 +16,7 @@ describe('Company Component', () => {
   test('renders company name, job title, and period', () => {
     render(<Company {...mockProps} />);
     expect(screen.getByText('Tech Corp')).toBeInTheDocument();
-    expect(screen.getByText('Software Engineer - Period: Jan 2020 - Present')).toBeInTheDocument();
+    expect(screen.getByText('Software Engineer - Jan 2020 - Present')).toBeInTheDocument();
   });
 
   test('renders description', () => {

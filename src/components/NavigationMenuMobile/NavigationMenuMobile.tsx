@@ -3,13 +3,15 @@
 import { Menu, Burger } from '@mantine/core';
 import { useState } from 'react';
 import { useDisclosure } from '@mantine/hooks';
+import { useTranslations } from 'next-intl';
 import classes from './navigation-menu-mobile.module.css';
-import { menuItems } from '../NavigationMenuDesktop/NavigationMenuDesktop';
 import NavigationItem from '../NavigationMenuDesktop/subcomponents/NavigationItem';
 
 export default function NavigationMenuMobile() {
   const [openMenu, setOpenMenu] = useState<boolean>(false);
   const [opened, { toggle }] = useDisclosure();
+  const t = useTranslations('header.navigation');
+  const keys = ['home', 'about', 'experience'] as const;
 
   return (
     <Menu
@@ -34,8 +36,12 @@ export default function NavigationMenuMobile() {
 
       <Menu.Dropdown>
         <ul className={classes.navList}>
-          {menuItems.map((item) => (
-            <NavigationItem href={item.href} label={item.label} key={item.href} />
+          {keys.map((item) => (
+            <NavigationItem
+              href={t(`${item}.href`)}
+              label={t(`${item}.label`)}
+              key={t(`${item}.href`)}
+            />
           ))}
         </ul>
       </Menu.Dropdown>
