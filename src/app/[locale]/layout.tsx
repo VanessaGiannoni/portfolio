@@ -10,7 +10,7 @@ import '../../../styles/global.css';
 
 export const metadata = {
   title: 'Vanessa Giannoni aka Vans',
-  description: 'Vanessa Giannoni aka Vans portfolio',
+  description: "Vanessa Giannoni's portfolio showcasing web development projects.",
 };
 
 interface RootLayoutParams {
@@ -28,9 +28,10 @@ export default async function RootLayout({ children, params }: RootLayoutParams)
       <head>
         <ColorSchemeScript />
         <link rel="shortcut icon" href="/vans-logo.png" type="image/x-icon" />
+        <link rel="canonical" href="https://vanessagiannoni.com" />
         <meta
           name="viewport"
-          content="minimum-scale=1, initial-scale=1, width=device-width, user-scalable=no"
+          content="minimum-scale=1, initial-scale=1, width=device-width, user-scalable=yes"
         />
       </head>
       <body>
