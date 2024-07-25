@@ -10,7 +10,7 @@ import '../../../styles/global.css';
 
 export const metadata = {
   title: 'Vanessa Giannoni aka Vans',
-  description: 'Vanessa Giannoni\'s portfolio showcasing web development projects.',
+  description: "Vanessa Giannoni's portfolio showcasing web development projects.",
 };
 
 interface RootLayoutParams {
