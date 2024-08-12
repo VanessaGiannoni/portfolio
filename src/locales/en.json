@@ -42,7 +42,7 @@
         "trupanion": {
           "id": 0,
           "title": "Trupanion",
-          "jobTitle": "Mid Software Engineer",
+          "jobTitle": "Software Engineer",
           "period": "Period: Aug 21, 2023 - Mar 31, 2024",
           "src": "/trupanion-logo.png",
           "altText": "Trupanion logo",
@@ -51,7 +51,7 @@
         "gsk_ttf_2": {
           "id": 1,
           "title": "GSK - Target The Future",
-          "jobTitle": "Jr. Software Engineer",
+          "jobTitle": "Software Engineer",
           "period": "Period: Jun 2024 - Aug 2024",
           "src": "/GSK-logo.png",
           "altText": "GSK logo",
@@ -60,7 +60,7 @@
         "zoho": {
           "id": 2,
           "title": "ArcTouch - Zoho People Migration",
-          "jobTitle": "Jr. Software Engineer",
+          "jobTitle": "Software Engineer",
           "period": "Period: Nov 1, 2023 - May 31, 2024",
           "src": "/zoho-people-logo.png",
           "altText": "Zoho people logo",
@@ -69,7 +69,7 @@
         "hp": {
           "id": 3,
           "title": "HP - HP One",
-          "jobTitle": "Jr. Software Engineer",
+          "jobTitle": "Software Engineer",
           "period": "Period: Mar 2022 - Oct 30, 2023",
           "src": "/hp-logo.png",
           "altText": "HP logo",
@@ -78,7 +78,7 @@
         "bonecoin": {
           "id": 4,
           "title": "McCormick's - Super Bowl Bonecoin",
-          "jobTitle": "Jr. Software Engineer",
+          "jobTitle": "Software Engineer",
           "period": "Period: Nov 16, 2021 - Feb 15, 2022",
           "src": "/mccormick-logo.png",
           "altText": "McCormick's logo",
@@ -87,7 +87,7 @@
         "gsk_ttf": {
           "id": 5,
           "title": "GSK - Target The Future",
-          "jobTitle": "Period: Jr. Software Engineer",
+          "jobTitle": "Period: Software Engineer",
           "period": "Oct 2021 - Nov 2021",
           "src": "/GSK-logo.png",
           "altText": "GSK's logo",
@@ -97,7 +97,7 @@
     },
     "lm_sistemas": {
       "company": "L&M Sistemas",
-      "job_title": "Jr. Software Engineer",
+      "job_title": "Software Engineer",
       "period": "Jun 2021 - Aug 2021",
       "description": "I had the opportunity to participate in the creation of the company's web development sector, where I worked on some projects in which I developed the front end in ReactJS, aiming for accessibility, responsiveness, and simplicity. Connecting to APIs developed by the company in Delphi Seattle and Postgres database.",
       "stack": ["React.js", "JavaScript", "React bootstrap", "Figma", "UX/UI", "TortoiseSVN"]
