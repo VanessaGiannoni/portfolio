@@ -42,7 +42,7 @@
         "trupanion": {
           "id": 0,
           "title": "Trupanion",
-          "jobTitle": "Engenheira de Software Pleno",
+          "jobTitle": "Engenheira de Software",
           "period": "Período: 21 de Ago de 2023 a 31 de Mar de 2024",
           "src": "/trupanion-logo.png",
           "altText": "Trupanion logo",
@@ -51,7 +51,7 @@
         "gsk_ttf_2": {
           "id": 1,
           "title": "GSK - Target The Future",
-          "jobTitle": "Engenheira de Software Jr.",
+          "jobTitle": "Engenheira de Software",
           "period": "Perído: Jun de 2024 a Ago de 2024",
           "src": "/GSK-logo.png",
           "altText": "GSK logo",
@@ -60,7 +60,7 @@
         "zoho": {
           "id": 2,
           "title": "ArcTouch - Zoho People Migration",
-          "jobTitle": "Engenheira de Software Jr.",
+          "jobTitle": "Engenheira de Software",
           "period": "Período: 1 de Nov de 2023 a 31 de Mai de 2024",
           "src": "/zoho-people-logo.png",
           "altText": "Zoho people logo",
@@ -69,7 +69,7 @@
         "hp": {
           "id": 3,
           "title": "HP - HP One",
-          "jobTitle": "Engenheira de Software Jr.",
+          "jobTitle": "Engenheira de Software",
           "period": "Período: Mar de 2022 a 30 de Out de 2023",
           "src": "/hp-logo.png",
           "altText": "HP logo",
@@ -78,7 +78,7 @@
         "bonecoin": {
           "id": 4,
           "title": "McCormick's - Super Bowl Bonecoin",
-          "jobTitle": "Engenheira de Software Jr.",
+          "jobTitle": "Engenheira de Software",
           "period": "Período: 16 de Nov de 2021 a 15 de Fev de 2022",
           "src": "/mccormick-logo.png",
           "altText": "McCormick's logo",
@@ -87,7 +87,7 @@
         "gsk_ttf": {
           "id": 5,
           "title": "GSK - Target The Future",
-          "jobTitle": "Engenheira de Software Jr.",
+          "jobTitle": "Engenheira de Software",
           "period": "Período: Out de 2021 a Nov de 2021",
           "src": "/GSK-logo.png",
           "altText": "GSK's logo",
@@ -97,7 +97,7 @@
     },
     "lm_sistemas": {
       "company": "L&M Sistemas",
-      "job_title": "Engenheira de Software Jr.",
+      "job_title": "Engenheira de Software",
       "period": "Jun de 2021 a Ago de 2021",
       "description": "Tive a oportunidade de participar da criação do setor de desenvolvimento web da empresa, onde trabalhei em alguns projetos os quais desenvolvi o frontend em ReactJS, visando acessibilidade, responsividade e simplicidade. Conectando a APIs desenvolvidas pela empresa em Delphi Seattle e banco de dados Postgrees.",
       "stack": ["React.js", "JavaScript", "React bootstrap", "Figma", "UX/UI", "TortoiseSVN"]
