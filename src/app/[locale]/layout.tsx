@@ -3,6 +3,7 @@ import { MantineProvider, ColorSchemeScript } from '@mantine/core';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { CookiesProvider } from 'next-client-cookies/server';
+import { Analytics } from '@vercel/analytics/next';
 import { theme } from '../../../theme';
 import SplashScreenProvider from '@/src/providers/SplashScreenProvider';
 
@@ -42,6 +43,7 @@ export default async function RootLayout({ children, params }: RootLayoutParams)
             </MantineProvider>
           </CookiesProvider>
         </NextIntlClientProvider>
+        <Analytics />
       </body>
     </html>
   );
